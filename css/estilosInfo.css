@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/back.png);
+}
+/*Modificar el alto conforme a la medida de la infografía*/
+.contenedor{
+    width: 1000px;
+    height: 600px; 
+    margin: 0 auto;
+}
+.infografia{
+    width: 1000px;
+    height: 600px; 
+    margin: -13px 0 -12px 0;
+    }
+.top{
+    background: url(../images/top.png) no-repeat;
+    width: 1000px;
+    height: 140px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+.nombreFranja{
+    background: url(../images/franja.png) no-repeat;
+    width: 445px;
+    height: 50px;
+    float: right;
+    margin: 10px 0 0 0;
+}
+.btns{
+    height: 80px;
+    width: 170px;
+    float: right;
+    position: relative;
+    bottom: -60px;
+    right: -400px;
+}
+.btnTop{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.creditos{
+    background: #2A9AA4;
+    height: 48px;
+    padding: 14px 20px 0 0;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.creditos p{
+    color: #FFF;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: right;
+}
+
+
+.btnTop img{
+    width: 70px;
+    height: 70px;
+}
+.pdf{
+    background: url(../images/bt_pdf.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.competencias{
+    background: url(../images/bt_competencias.svg) no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    float: left;
+}
+.popUp{
+    background: url(../images/bt_popUp.svg) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.web{
+    background: url(../images/bt_web.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.tema1{
+	margin: 210px 0 0 0;
+	position: absolute;
+	float: left;
+    background: rgba(173, 255, 47, 0);
+    width: 1000px;
+}
+
+.btntema1{
+	background: url(../images/boton_1.png) no-repeat;
+    width: 300px;
+    height: 50px;
+    margin: 525px 0 0 19px;
+    position: absolute;
+}
+
+.tema2{
+	margin: 830px 0 0 0;
+    position: absolute;
+    float: right;
+    background: rgba(173, 255, 47, 0);
+    width: 1000px;
+}
+.btntema2{
+    background: url(../images/boton_2.png) no-repeat;
+    width: 270px;
+    height: 200px;
+    margin: 38px 0 0 80px;
+    position: absolute;
+}
+
+.btntema3{
+	background: url(../images/boton_3.png) no-repeat;
+    width: 270px;
+    height: 200px;
+	margin: 38px 0 0 370px;
+    position: absolute;
+}
+.btntema4{
+	background: url(../images/boton_4.png) no-repeat;
+    width: 270px;
+    height: 200px;
+	margin: 38px 0 0 665px;
+    position: absolute;
+}
+
+
+.btntema5{
+	background: url(../images/boton_5.png) no-repeat;
+    width: 270px;
+	height: 200px;
+	margin: 310px 0 0 80px;
+    position: absolute;
+}
+
+.btntema6{
+	background: url(../images/boton_6.png) no-repeat;
+    width: 270px;
+	height: 200px;
+	margin: 310px 0 0 370px;
+    position: absolute;
+}
+
+.btntema7{
+	background: url(../images/boton_7.png) no-repeat;
+    width: 270px;
+	height: 200px;
+	margin: 310px 0 0 665px;
+    position: absolute;
+}
+
+.btntema8{
+	background: url(../images/boton_8.png) no-repeat;
+    width: 270px;
+	height: 200px;
+	margin: 1890px 0 0 115px;
+    position: absolute;
+}
+
+.btntema9{
+	background: url(../images/boton_9.png) no-repeat;
+    width: 270px;
+	height: 200px;
+	margin: 1890px 0 0 620px;
+    position: absolute;
+}

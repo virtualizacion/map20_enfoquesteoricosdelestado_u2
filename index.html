@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/estilosInfo.css">
+    <link rel="stylesheet" href="css/jquery.lightbox.css">
+</head>
+<body>
+   <div class="contenedor">
+        <div class="top">
+            <div class="nombreFranja"></div>
+            <div class="btns">
+                
+                <div class="btnTop">
+                    <a href="images/contenidos/Unidad%202.pdf" target="_blank"><img src="images/bt_pdf.svg" class="pdf"></a>
+                    <a href="#" target="_blank"><img src="images/bt_competencias.svg" class="competencias"></a>
+                </div>
+            </div>
+        </div>
+        <div class="infografia">
+            <!--Así es como se deben vincular, ya sea imagen o html-->
+            
+            <iframe src="media/story_html5.html" width="1000" height="600" scrolling="no" frameborder="0"></iframe>
+            
+     </div>
+               
+        <div class="creditos">
+            <p>© ESAP // Subdirección Académica // Equipo de Educación y Entornos Digitales // 2017</p>
+            </div>
+   </div>
+</body>
+   
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/jquery.lightbox.min.js"></script>
+<script src="js/infografia.js"></script>
+    
+    
+    <!-- SCRIPTS DE LA LIBRERIA DE LOS POP UP -->
+    <script>
+           $(document).ready(function(e) {
+                $('a[data-lightbox-gallery]').iLightbox({
+                    type: 'iframe', //'image', 'inline', 'ajax', 'iframe', 'swf' and 'html'
+                    loop: null,
+                    arrows: null,
+                    closeBtn: true,
+                    title: null,
+                    href: null,
+                    content: null,
+                    beforeShow: function(a, b){ },
+                    onShow: function(a, b){ },
+                    beforeClose: function(){ },
+                    afterClose: function(){ },
+                    onUpdate: function(a){ },
+                });
+           });
+    </script>
+
+</html>
